@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+    displayResult(rollDice());
+});
 document.getElementById('rollButton').addEventListener('click', function() {
     displayResult(rollDice());
 });
